@@ -10,6 +10,16 @@ const PORT = 4000;
 // Miidleware Space
 app.use(express.json());
 
+// Routes
+// Home Route
+app.get("/", (req, res) => {
+  res
+    .status(200)
+    .send(
+      `<div><p style="font-size: 35px;text-align:center;">Hi! Welcome to my website <br /> <span style="font-size: 20px;"> This is Node js Filesystem - Current Timestamp Task</span></p></div>`
+    );
+});
+
 // Endpoint to create a text file with current timestamp
 app.get("/create", (req, res) => {
   const currentDateTime = format(new Date(), "yyyy-MM-dd-HH-mm-ss");
@@ -30,4 +40,4 @@ app.get("/files", (req, res) => {
 // PORT Block
 app.listen(PORT, () => {
   console.log(`App is running on Port = ${PORT} successfully`);
-}); 
+});
