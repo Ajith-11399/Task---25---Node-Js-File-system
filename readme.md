@@ -24,7 +24,7 @@ This Node.js application provides endpoints to create text files containing the 
 
 | **Routes**                                                              | **Method** | **Endpoint** | **Description**                                        |
 | ----------------------------------------------------------------------- | ---------- | ------------ | ------------------------------------------------------ |
-| <a href="https://nodejs-filesystem-fdcr.onrender.com/" style="text-decoration:none;">Home</a>         | `GET`        | `/`          | Displays a welcome message                             |
+| <a href="https://nodejs-filesystem-fdcr.onrender.com/">Home</a>         | `GET`        | `/`          | Displays a welcome message                             |
 | <a href="https://nodejs-filesystem-fdcr.onrender.com/create">Create</a> | `GET`        | `/create`    | Creates a text file with the current timestamp         |
 | <a href="https://nodejs-filesystem-fdcr.onrender.com/files">Files</a>   | `GET`        | `/files`     | Retrieves all text files from the TimeStamps directory |
 
