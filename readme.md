@@ -47,4 +47,4 @@ This Node.js application provides endpoints to create text files containing the 
 ## API DOcumentation 
 
 > Here is the API documentation of Nodejs Filesystem - Current Timestamps Task 
-<a href="https://documenter.getpostman.com/view/35036950/2sA3XLE4Hu">View Documentation</a>
+<a href="https://documenter.getpostman.com/view/35036950/2sA3XLE4Hu" target="_new">View Documentation</a>
