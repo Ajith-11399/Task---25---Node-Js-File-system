@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Endpoint to create a text file with current timestamp
 app.get("/create", (req, res) => {
-  const currentDateTime = format(new Date(), "yyyy-mm-dd-hh-mm-ss");
+  const currentDateTime = format(new Date(), "yyyy-MM-dd-HH-mm-ss");
   const filePath = `TimeStamps/${currentDateTime}.txt`;
   fs.writeFileSync(filePath, currentDateTime, "utf-8");
   res.status(200).json({ message: "Text file created successfully", filePath });
