@@ -22,6 +22,12 @@ This Node.js application provides endpoints to create text files containing the 
 
 ## Routes
 
+| **Routes**  | **Method** | **Endpoint** | **Description** |
+| ------------- | ------------- | ------------- | ------------- |
+| Home | GET  | `/`  | Second Header | Displays a welcome message |
+| Create  | GET  | `/create`  | Second Header | Creates a text file with the current timestamp |
+| Files  | GET  | `/files`  | Second Header | Retrieves all text files from the TimeStamps directory |
+
 ### Home Route
 
 - **Method**: GET
@@ -44,7 +50,7 @@ This Node.js application provides endpoints to create text files containing the 
 > This repository is owned by <a href="https://github.com/Ajith-11399/nodejs-filesystem/tree/main">AJ</a>.
 
 
-## API DOcumentation 
+## API DOcumentation - POSTMAN API
 
 > Here is the API documentation of Nodejs Filesystem - Current Timestamps Task 
 <a href="https://documenter.getpostman.com/view/35036950/2sA3XLE4Hu" target="_new">View Documentation</a>
