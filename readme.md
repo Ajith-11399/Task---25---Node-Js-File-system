@@ -31,7 +31,7 @@ This Node.js application provides endpoints to create text files containing the 
 ## License
 
 > This repository is owned by
-> <a href="https://github.com/Ajith-11399/nodejs-filesystem/tree/main">AJ</a><button type="button" style="background-color: blue; color: white; padding: 10px 20px; border: none; border-radius: 5px;"></button>
+> <a href="https://github.com/Ajith-11399/nodejs-filesystem/tree/main">AJ</a>
 
 ## Backend Source Link
 
