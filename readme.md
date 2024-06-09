@@ -41,7 +41,7 @@ This Node.js application provides endpoints to create text files containing the 
 - **Description**: Retrieves all text files from the TimeStamps directory.
 
 ## License
-> This repository is owned by AJ. <a href="https://github.com/Ajith-11399/nodejs-filesystem/tree/main"></a>
+> This repository is owned by <a href="https://github.com/Ajith-11399/nodejs-filesystem/tree/main">AJ</a>.
 
 
 ## API DOcumentation 
