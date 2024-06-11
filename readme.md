@@ -16,7 +16,7 @@ This Node.js application provides endpoints to create text files containing the 
 
 ## Operations
 
-1. **Home Route**: Displays a welcome message.
+1. **Home**: Displays a welcome message.
 2. **Create Timestamp File**: Creates a text file with the current timestamp.
 3. **Retrieve Timestamp Files**: Lists all the timestamp text files in the directory.
 
